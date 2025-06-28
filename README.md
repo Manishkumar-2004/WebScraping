@@ -15,12 +15,12 @@ How to run the program
 This project includes two main Python scripts: main.py and consumer.py. You can run either depending on how you want to provide input data (via a local file or RabbitMQ).
 
 1. Run Using Default JSON File:
-        * If you want to test the program using the default application data:
+        * If you want to test the program using the default application data
         * Simply run the main.py file.
         * It will automatically fetch and process the apply.json file located in the project directory.
 
 2. Run Using RabbitMQ (Consumer Mode):
-      * If you want to send application data through RabbitMQ:
+      * If you want to send application data through RabbitMQ
       * First, run the consumer.py file. It will wait for messages and process them one by one.
 
       Scenarios:
