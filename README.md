@@ -24,14 +24,12 @@ This project includes two main Python scripts: main.py and consumer.py. You can 
       * First, run the consumer.py file. It will wait for messages and process them one by one.
 
       Scenarios:
-        
-      Case i: Sending a Single JSON Object
-           The consumer will process one application and generate a corresponding log file in the log/ folder containing the details of that application.
-      
-      Case ii: Sending Multiple JSON Objects
-           If the payload is a list of multiple application JSONs, the consumer will process each application one by one.
-           All processed application details will be stored in a single new log file inside the log/ folder.
+        Case i: Sending a Single JSON Object
+             The consumer will process one application and generate a corresponding log file in the log/ folder containing the details of that application.
+        Case ii: Sending Multiple JSON Objects
+             If the payload is a list of multiple application JSONs, the consumer will process each application one by one.
+             All processed application details will be stored in a single new log file inside the log/ folder.
 
-4. Manual Form Verification:
-      After automation, you can manually log in and verify the details in the form that were auto-filled by the script.
+3. Manual Form Verification:
+    * After automation, you can manually log in and verify the details in the form that were auto-filled by the script.
 
